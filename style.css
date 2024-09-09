@@ -21,6 +21,29 @@ header {
     background-color: #6200ea;
     color: white;
     padding: 20px 0;
+    margin-right: 5px;
+}
+
+.top-header {
+    background-image: url('neuron_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+}
+
+.top-header h1, 
+.top-header p, 
+.top-header a {
+    color: white; /* Text color */
+    text-shadow: 
+        1px 1px 1px #000,
+        1px 1px 1px #000,
+        1px 1px 1px #000,
+        1px 1px 1px #000;
+    font-weight: bold;
 }
 
 #logo {
@@ -112,7 +135,7 @@ article footer a {
     display: inline-block;
     padding: 10px 20px;
     border: 2px solid grey;
-    border-radius: 5px;
+    border-radius: 5px65r;
 }
 
 article footer a:hover {
@@ -171,6 +194,29 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
+}
+
+.bottom-footer {
+    background-image: url('neuron_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bottom-footer h1, 
+.bottom-footer p, 
+.bottom-footer a {
+    color: white; /* Text color */
+    text-shadow: 
+        1px 1px 1px #000,
+        1px 1px 1px #000,
+        1px 1px 1px #000,
+        1px 1px 1px #000;
+    font-weight: bold;
 }
 
 footer h2 {
